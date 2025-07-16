@@ -18,7 +18,7 @@ public class ExceptionManager {
      * @param plugin The plugin instance.
      * @return A message indicating the success or failure of saving the exception.
      */
-    public static String saveInLog(Exception e, Plugin plugin) {
+    public String saveInLog(Exception e, Plugin plugin) {
         String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
         File logDirectory = new File(plugin.getDataFolder() + "/exceptions/");
 
@@ -46,7 +46,7 @@ public class ExceptionManager {
      * @param plugin The plugin instance.
      * @return A message indicating the success or failure of deletion.
      */
-    public static String deleteLogFile(Plugin plugin) {
+    public String deleteLogFile(Plugin plugin) {
         File logDirectory = new File(plugin.getDataFolder() + "/exceptions/");
 
         // Comprobar si la carpeta existe
