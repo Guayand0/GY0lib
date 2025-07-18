@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib.exceptions;
+package com.Guayand0.exceptions;
 
 import org.bukkit.plugin.Plugin;
 

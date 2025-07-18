@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib.server;
+package com.Guayand0.server;
 
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;

@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib.data;
+package com.Guayand0.data;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;

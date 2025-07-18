@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib.updates;
+package com.Guayand0.updates;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

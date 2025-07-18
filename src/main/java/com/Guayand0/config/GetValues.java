@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib.config;
+package com.Guayand0.config;
 
 import org.bukkit.plugin.Plugin;
 

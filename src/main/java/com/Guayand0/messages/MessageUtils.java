@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib.messages;
+package com.Guayand0.messages;
 
 import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;
