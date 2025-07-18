@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib;
+package com.Guayand0.GY0lib.messages;
 
 import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;
@@ -7,9 +7,6 @@ import org.bukkit.entity.Player;
 
 import java.util.Map;
 
-/**
- * Utility class for handling messages with color and PlaceholderAPI placeholders.
- */
 public class MessageUtils {
 
     /**
@@ -106,5 +103,9 @@ public class MessageUtils {
         } else {
             return getColoredText(replacePlaceholdersText(message, placeholders));
         }
+    }
+
+    public String replaceColorCodeMOTD(String message) {
+        return message.replaceAll("&", "§");
     }
 }

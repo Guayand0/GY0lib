@@ -1,7 +1,6 @@
-package com.Guayand0.GY0lib;
+package com.Guayand0.GY0lib.data;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -10,13 +9,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -68,7 +63,7 @@ public class DataSaver {
                     String coreCount = Runtime.getRuntime().availableProcessors() + "";
                     String cpuBrand = getCPUBrand();
                     String country = Locale.getDefault().getDisplayCountry();
-                    
+
                     URL url = new URL("https://iplugin.vercel.app/api/stats");
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 

@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib;
+package com.Guayand0.GY0lib.updates;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -46,5 +46,16 @@ public class UpdateChecker {
         con.setConnectTimeout(timeOut);
         con.setReadTimeout(timeOut);
         return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+    }
+
+    /**
+     * Checks if there is a newer plugin version available compared to the current one.
+     *
+     * @param currentVersion The version currently running.
+     * @param newVersion The latest available version.
+     * @return true if the new version is newer than the current version; false otherwise.
+     */
+    public boolean newPluginVersion(String currentVersion, String newVersion) {
+        return compareVersions(currentVersion, newVersion) < 0;
     }
 }

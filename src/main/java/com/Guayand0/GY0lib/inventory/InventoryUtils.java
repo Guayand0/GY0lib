@@ -1,4 +1,4 @@
-package com.Guayand0.GY0lib;
+package com.Guayand0.GY0lib.inventory;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
